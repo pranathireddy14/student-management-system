@@ -48,19 +48,15 @@ INSERT INTO students (name, age, email) VALUES
 ```
 
 ## Installation and Setup
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/student-management-system.git
-   ```
-2. Open the project in your preferred Java IDE.
-3. Add the MySQL JDBC driver to the project dependencies.
-4. Update database connection details in `DBConnection.java`:
+1. Open the project in your preferred Java IDE.
+2. Add the MySQL JDBC driver to the project dependencies.
+3. Update database connection details in `DBConnection.java`:
    ```java
    String url = "jdbc:mysql://localhost:3306/student_db";
    String user = "root";
    String password = "your_password";
    ```
-5. Run the `Main.java` file to start the application.
+4. Run the `Main.java` file to start the application.
 
 ## Usage
 - Run the Java application.
